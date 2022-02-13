@@ -40,4 +40,11 @@ $(document).ready(function () {
             scrollTop: $("#about-us").offset().top
         }, 1000);
     });
+
+
+    $('.grid').masonry({
+      // options
+      itemSelector: '.grid-item',
+      columnWidth: 200
+    });
 });
