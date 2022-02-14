@@ -446,6 +446,9 @@ html[dir="rtl"] .services::after {
   color: var(--main-color);
   margin-bottom: 60px;
 }
+html[dir="rtl"] {
+  font-family: "Tajawal";
+}
 .services-cont {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
