@@ -116,6 +116,7 @@ header {
 }
 .nav-header figure img {
   width: 40px;
+  transition: all 0.3s ease-in-out;
 }
 .nav-head {
   height: 38px;
@@ -855,7 +856,7 @@ html[dir="rtl"] .form-group label {
   }
   .fixed-nav .nav-header figure img,
   .nav-header figure img {
-    max-width: 35px;
+    max-width: 30px;
   }
   .nav-header {
     padding: 10px 0;
