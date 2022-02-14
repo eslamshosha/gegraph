@@ -108,14 +108,14 @@ header {
 } */
 .fixed-nav .nav-header figure img {
   /* max-width: 70px; */
-  width: 40px;
+  width: 35px;
   transition: all 0.3s ease-in-out;
 }
 .nav-header figure {
   margin: 0;
 }
 .nav-header figure img {
-  width: 55px;
+  width: 40px;
 }
 .nav-head {
   height: 38px;
@@ -855,7 +855,7 @@ html[dir="rtl"] .form-group label {
   }
   .fixed-nav .nav-header figure img,
   .nav-header figure img {
-    max-width: 40px;
+    max-width: 35px;
   }
   .nav-header {
     padding: 10px 0;
