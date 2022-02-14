@@ -193,6 +193,7 @@ main .main-captions {
   font-size: 70.48px;
   color: var(--main-color);
   font-family: "montserrat";
+  font-weight: 800;
   display: block;
   margin-bottom: 25px;
   transition: all 0.3s ease-in-out;
@@ -438,6 +439,7 @@ html[dir="rtl"] .services::after {
   text-transform: uppercase;
   text-align: start;
   font-family: "montserrat";
+  font-weight: 800;
   font-size: 36px;
   color: var(--main-color);
   margin-bottom: 60px;
