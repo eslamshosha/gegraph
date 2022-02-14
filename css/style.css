@@ -352,7 +352,7 @@ main .main-captions span {
     font-size: 40px;
   }
   html[dir="rtl"] main .main-captions {
-    width: 290px;
+    width: 295px;
   }
   main .main-captions span {
     margin-inline-start: -10px;
