@@ -48,7 +48,20 @@ $(document).ready(function () {
       $stickyheader.removeClass("fixed-header", { duration: 500 });
     }
   });
-
+  //slide down menu
+  $(".btn-div").click(function (e) {
+    e.preventDefault();
+    $(this).siblings(".cats-dispaly").slideToggle(400);
+    $(".btn-div").not(this).siblings(".cats-dispaly").slideUp(400);
+    if ($(window).width() <= 1199) {
+      $(this).toggleClass("active");
+    }
+  });
+  $(".overlay-box").click(function () {
+    $(".cats-dispaly").slideToggle(400);
+  });
+  $(".top-header .add-chevron").addClass("chevron-down");
+  
   //scroll down button to about us section
   $("#scroll-to-about-section").click(function () {
     $("html, body").animate(
