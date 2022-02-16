@@ -446,7 +446,7 @@ html[dir="rtl"] .services::after {
   color: var(--main-color);
   margin-bottom: 60px;
 }
-html[dir="rtl"] {
+html[dir="rtl"] .section-head {
   font-family: "Tajawal";
 }
 .services-cont {
